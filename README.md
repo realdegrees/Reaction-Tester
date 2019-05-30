@@ -22,3 +22,6 @@ The best and worst response is also stored.
 The program does currently not filter outliers (e.g. you were distracted and clicked after 10 seconds)
 
 Results can be extracted as a .txt file in the results tab if necessary.
+
+KNOWN BUGS  
+* .txt export includes unnecessary logs
