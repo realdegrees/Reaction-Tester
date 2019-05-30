@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="de.ur.mi.reactiontest.ReactionTestGUI">
+  <grid id="90298" binding="panelFrame" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="530" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="87f62" binding="panelTabs">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="168" height="153"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="27dc6" binding="panelVisual" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Visual"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="2f762" binding="panelAudio" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Audio"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="9c984" binding="panelChoice" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Choice"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="ce049" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <name value="C"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="2a6c8" class="javax.swing.JButton">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12960706"/>
+                      <borderPainted value="true"/>
+                      <contentAreaFilled value="true"/>
+                      <defaultCapable value="true"/>
+                      <doubleBuffered value="false"/>
+                      <focusPainted value="true"/>
+                      <focusable value="false"/>
+                      <hideActionText value="false"/>
+                      <opaque value="true"/>
+                      <selected value="false"/>
+                      <text value="C"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="35e4" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <name value="M"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="214b9" class="javax.swing.JButton">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12960706"/>
+                      <borderPainted value="true"/>
+                      <contentAreaFilled value="true"/>
+                      <defaultCapable value="true"/>
+                      <doubleBuffered value="false"/>
+                      <focusPainted value="true"/>
+                      <focusable value="false"/>
+                      <hideActionText value="false"/>
+                      <opaque value="true"/>
+                      <selected value="false"/>
+                      <text value="M"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="51a2f" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <name value="N"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="7462a" class="javax.swing.JButton">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12960706"/>
+                      <borderPainted value="true"/>
+                      <contentAreaFilled value="true"/>
+                      <defaultCapable value="true"/>
+                      <doubleBuffered value="false"/>
+                      <focusPainted value="true"/>
+                      <focusable value="false"/>
+                      <hideActionText value="false"/>
+                      <opaque value="true"/>
+                      <selected value="false"/>
+                      <text value="N"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="d2ebe" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <name value="V"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="998bd" class="javax.swing.JButton">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12960706"/>
+                      <borderPainted value="true"/>
+                      <contentAreaFilled value="true"/>
+                      <defaultCapable value="true"/>
+                      <doubleBuffered value="false"/>
+                      <focusPainted value="true"/>
+                      <focusable value="false"/>
+                      <hideActionText value="false"/>
+                      <opaque value="true"/>
+                      <selected value="false"/>
+                      <text value="V"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="75edb" binding="panelStim" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Stim"/>
+            </constraints>
+            <properties>
+              <visible value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="33534" class="javax.swing.JLabel" binding="stimDescription">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <name value="description"/>
+                  <text value="Label"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c05e1" binding="panelResults" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Results"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="c8fca">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="3e542" class="javax.swing.JTextArea" binding="resultText">
+                    <constraints/>
+                    <properties>
+                      <autoscrolls value="false"/>
+                      <editable value="false"/>
+                      <focusable value="false"/>
+                      <font/>
+                      <lineWrap value="true"/>
+                      <name value=""/>
+                      <visible value="true"/>
+                      <wrapStyleWord value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <component id="8ff16" class="javax.swing.JButton" binding="buttonStart">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="168" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <horizontalTextPosition value="0"/>
+          <label value="Export Results"/>
+          <text value="Export Results"/>
+        </properties>
+      </component>
+      <component id="6a6db" class="javax.swing.JLabel" binding="labelTestResult">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="75434" class="javax.swing.JTextArea" binding="textAreaDescription">
+        <constraints>
+          <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font/>
+          <lineWrap value="true"/>
+          <tabSize value="8"/>
+          <wrapStyleWord value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
