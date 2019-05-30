@@ -2,6 +2,8 @@
 This small Java Swing application measures your response time to certain tasks.
 There are 4 different situations:
 
+Download the application from /out/artifacts/ReactionTest_jar/ReactionTest.jar
+
 * Visual Reaction Test  
 Tests your reaction to a simple visual change.
 A square turns green in random intervals measuring the time in milliseconds until a button is pressed after the change.
